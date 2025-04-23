@@ -1,0 +1,286 @@
+/* color palette
+#735130 brown
+#44270A darkbrown
+#D9F2FF lightest blue
+#BADEF2 light blue 
+#89D6FF blue 
+#336885 dark blue 
+#BEA25B gold  */
+
+html {
+    color: #44270A;
+    font-family: 'Georgia', sans-serif;
+}
+
+body {
+    background-color: rgba(217, 242, 255, 1);
+    border: .2em solid #BEA25B;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin: auto;
+}
+
+header {
+    padding-top: .5em;
+    padding-bottom: .5;
+    background-color: rgba(217, 242, 255, .8);
+    margin: auto;
+    text-align: center;
+}
+
+header>img {
+    width: 40%;
+    padding-bottom: 0;
+}
+
+nav {
+    /* position: sticky; */
+    /* top: 0; */
+    background-color: #D9F2FF;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+nav p {
+    background-color: #BADEF2;
+    border-top: .2em solid #BEA25B;
+    border-right: .2em solid #BEA25B;
+    border-bottom: .2em solid #BEA25B;
+    margin: 0;
+    padding: .2em;
+    width: 20%;
+}
+
+nav p:hover {
+    cursor: pointer;
+}
+
+#regNav {
+    border-right: none;
+}
+
+h1 {
+    padding-top: 0;
+}
+
+h2,
+h3,
+h4 {
+    text-align: center;
+    background-color: #D9F2FF;
+    margin: auto;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+div {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+p {
+    padding-bottom: 1em;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+    width: 30em;
+}
+
+.emblem {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 5em;
+    max-width: 5em;
+}
+
+a {
+    color: #336885;
+}
+
+footer {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-top: .2em solid #BEA25B;
+    text-align: center;
+    width: 100%;
+}
+
+.activeNav {
+    background-color: #D9F2FF;
+    border-bottom: none;
+}
+
+.inactiveNav {
+    background-color: #BADEF2;
+    /* border-bottom: .2em solid #BEA25B; */
+}
+
+.displaySection {
+    display: block;
+}
+
+.nodisplaySection {
+    display: none;
+    margin: auto;
+}
+
+#bicycle {
+    width: 100%;
+    max-width: 45em;
+}
+
+#cactusApron {
+    float: right;
+    padding-left: 2em;
+    width: 15em;
+}
+
+#mobileCactusApron {
+    display: none;
+}
+
+.floatLeft {
+    float: left;
+    padding-top: 0;
+    padding-right: 2em;
+    width: 25em;
+}
+
+.floatRight {
+    padding-top: 0;
+    float: right;
+    padding-left: 2em;
+    width: 25em;
+}
+
+.imgFlex {
+    display: inline-flex;
+    margin: auto;
+    width: 25em;
+}
+
+#RSVPimg{
+    width: 22%;
+    padding-bottom: 10em;
+}
+
+#venueMap {
+    border: none;
+    display: block;
+    height: 28em;
+    margin: auto;
+    padding: 0;
+    width: 85%;
+}
+
+#RSVP {
+    height: 33em;
+    border: none;
+    margin: auto;
+    width: 55%;
+}
+
+#chicagoMap {
+    display: block;
+    height: 37.5em;
+    border: none;
+    margin: auto;
+    padding-bottom: 1em;
+    width: 85%;
+}
+
+#registry {
+    display: block;
+    height: 28em;
+    border: none;
+    margin: auto;
+    padding-bottom: 1em;
+    width: 85%;
+}
+
+@media screen and (max-width:750px) {
+    #cactusApron {
+        display: none;
+    }
+
+    #mobileCactusApron {
+        display: block;
+        float: none;
+        padding: 2%;
+        width: 10em;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    body {
+        
+        font-size: 1.2em;
+        line-height: 1.4em;
+    }
+
+    header>img {
+        width: 15em;
+        padding-bottom: 0;
+    }
+
+    /* nav {
+        display: block;
+    }
+
+    #regNav {
+        border-right: .2em solid #BEA25B;
+        border-bottom: .2em solid #BEA25B;
+    }
+
+    nav p {
+        border-bottom: none;
+        width: 98%;
+    } */
+
+    div {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    img {
+        width: 15em;
+    }
+
+    .imgFlex {
+        display: block;
+        margin: auto;
+    }
+
+    #RSVPimg{
+        width: 15em;
+        padding: 2%;
+    }
+
+    #RSVP {
+        height: 40em;
+        border: none;
+        margin: auto;
+        width: 100%;
+    }
+
+    .floatLeft {
+        float: none;
+        display: block;
+        padding: 2%;
+        width: 97%;
+    }
+
+    .floatRight {
+        float: none;
+        display: block;
+        padding: 2%;
+        width: 97%;
+    }
+}
