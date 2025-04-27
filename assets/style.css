@@ -135,6 +135,15 @@ footer {
     max-width: 45em;
 }
 
+#venueMap {
+    border: none;
+    display: block;
+    height: 28em;
+    margin: auto;
+    padding: 0;
+    width: 85%;
+}
+
 #cactusApron {
     float: right;
     padding-left: 2em;
@@ -170,15 +179,6 @@ footer {
     padding-bottom: 10em;
 }
 
-#venueMap {
-    border: none;
-    display: block;
-    height: 28em;
-    margin: auto;
-    padding: 0;
-    width: 85%;
-}
-
 #RSVP {
     height: 33em;
     border: none;
@@ -204,6 +204,24 @@ footer {
     width: 85%;
 }
 
+@media screen and (max-width: 1290px) {
+    .imgFlex {
+        display: block;
+        margin: auto;
+    }
+
+    #RSVPimg{
+        width: 15em;
+        padding: 2%;
+    }
+
+    #RSVP {
+        height: 40em;
+        border: none;
+        margin: auto;
+        width: 100%;
+    }
+}
 @media screen and (max-width:750px) {
     #cactusApron {
         display: none;
@@ -251,23 +269,6 @@ footer {
 
     img {
         width: 15em;
-    }
-
-    .imgFlex {
-        display: block;
-        margin: auto;
-    }
-
-    #RSVPimg{
-        width: 15em;
-        padding: 2%;
-    }
-
-    #RSVP {
-        height: 40em;
-        border: none;
-        margin: auto;
-        width: 100%;
     }
 
     .floatLeft {
