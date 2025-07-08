@@ -15,7 +15,7 @@ html {
 body {
     background-color: rgba(217, 242, 255, 1);
     border: .2em solid #BEA25B;
-    font-size: 1.4em;
+    font-size: 1.3em;
     line-height: 1.6em;
     margin: auto;
 }
@@ -75,8 +75,8 @@ h4 {
 }
 
 div {
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 p {
@@ -163,6 +163,7 @@ footer {
     padding-top: 0;
     padding-right: 2em;
     width: 25em;
+    max-width: 40em;
 }
 
 .floatRight {
@@ -170,12 +171,14 @@ footer {
     float: right;
     padding-left: 2em;
     width: 25em;
+    max-width: 40em;
 }
 
 .imgFlex {
     display: inline-flex;
     margin: auto;
     width: 25em;
+    max-width: 40em;
 }
 
 #RSVPimg{
@@ -184,7 +187,7 @@ footer {
 }
 
 #RSVP {
-    height: 33em;
+    height: 35em;
     border: none;
     margin: auto;
     width: 55%;
@@ -220,13 +223,14 @@ footer {
     }
 
     #RSVP {
-        height: 40em;
+        height: 42em;
         border: none;
         margin: auto;
         width: 100%;
     }
 }
-@media screen and (max-width:750px) {
+
+@media screen and (max-width:820px) {
     #cactusApron {
         display: none;
     }
@@ -235,43 +239,9 @@ footer {
         display: block;
         float: none;
         padding: 2%;
-        width: 10em;
-    }
-}
-
-@media screen and (max-width:480px) {
-
-    body {
-        
-        font-size: 1.2em;
-        line-height: 1.4em;
-    }
-
-    header>img {
         width: 15em;
-        padding-bottom: 0;
     }
-
-    /* nav {
-        display: block;
-    }
-
-    #regNav {
-        border-right: .2em solid #BEA25B;
-        border-bottom: .2em solid #BEA25B;
-    }
-
-    nav p {
-        border-bottom: none;
-        width: 98%;
-    } */
-
-    div {
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-
-    img {
+        img {
         width: 15em;
     }
 
@@ -287,5 +257,38 @@ footer {
         display: block;
         padding: 2%;
         width: 97%;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    body {
+        font-size: 1.2em;
+        line-height: 1.4em;
+    }
+
+    header>img {
+        width: 15em;
+        padding-bottom: 0;
+    }
+
+    /* nav {
+        display: block;
+    } */
+/* 
+    #regNav {
+        border-right: .2em solid #BEA25B;
+        border-bottom: .2em solid #BEA25B;
+    } */
+}
+@media screen and (max-width:450px) {
+    nav p {
+        font-size: .88em;
+        padding: .1em;
+    }
+
+    div {
+        padding-left: 3%;
+        padding-right: 3%;
     }
 }
